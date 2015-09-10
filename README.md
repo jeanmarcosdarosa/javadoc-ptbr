@@ -1,4 +1,4 @@
-JavaDoc em Protuguês
+JavaDoc em Português
 ====
 
 Este projeto contém os arquivos que são necessários para gerar javadocs em português. Ou seja, palavras estáticas como "Tree" e "All Classes" são traduzidas.
@@ -11,18 +11,19 @@ Como fazer?
 =====
 Para gerar o javadoc em português é preciso mexer nos arquivos compilados do java. Seguem abaixo os passos para fazer funcionar.
 
-1. Na pasta build aqui do github, pegue os dois arquivos finalizados com _pt_BR que contém as Strings Traduzidas:
+1. Compile os fontes com sua IDE favorita, isso vai gerar 2 arquivos .class
+2. Na pasta de build, pegue os dois arquivos finalizados com _pt_BR que contém as Strings Traduzidas:
     - com / sun / tools / doclets / formats / html / resources / standard_pt_BR.class
 	- com / sun / tools / doclets / internal / toolkit / resources / doclets_pt_BR.class
 	
-2. Localiza a pasta do seu JDK (no meu windows: C:\Arquivos de programas\Java\jdk1.6.0_23);
-3. Localize agora o arquivo **lib/tools.jar**
-4. Abra o arquivo utilizando o WinRar (isso mesmo, .jar é só um zip);
-5. Feche qualquer ambiente de desenvolvimento ainda aberto (NetBeans, Eclipse, etc). 
+3. Localiza a pasta do seu JDK (no meu windows: C:\Arquivos de programas\Java\jdk1.7.0_41);
+4. Localize agora o arquivo **lib/tools.jar**
+5. Abra o arquivo utilizando o WinRar (isso mesmo, .jar é só um zip);
+6. Feche qualquer ambiente de desenvolvimento ainda aberto (NetBeans, Eclipse, etc). 
 Estes programas frequentemente usam este arquivo em background e não nos deixariam mexer nele.
-6. Agora, use a mesma estrutura de diretórios mostrada no item 1 e coloque os dois arquivos dentro do jar (outra opção é arrastar diretamente a pasta "com" para a raiz do tools.jar, assim os arquivos são colocados na pasta correta automaticamente).
-7. Feche o tools.jar e abra novamente seu ambiente de programação (ou a linha de comando se for usá-la para gerar o .jar)
-8. execute o comando do javadoc colocando o parâmetro **-locale "pt_BR"**
+7. Agora, use a mesma estrutura de diretórios mostrada no item 1 e coloque os dois arquivos dentro do jar (outra opção é arrastar diretamente a pasta "com" para a raiz do tools.jar, assim os arquivos são colocados na pasta correta automaticamente).
+8. Feche o tools.jar e abra novamente seu ambiente de programação (ou a linha de comando se for usá-la para gerar o .jar)
+9. execute o comando do javadoc colocando o parâmetro **-locale "pt_BR"**
 
 É isso.
 Dúvidas?? problemas??
