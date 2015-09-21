@@ -66,7 +66,7 @@ public final class doclets_pt_BR extends ListResourceBundle
      { "doclet.Exceptions", "Exceções" },
      { "doclet.Externalizable", "Externalizavel" },
      { "doclet.Factory", "Fábrica:" },
-     { "doclet.Factory_Method_Summary", "Resumo da Fábrica de Método estático" },
+     { "doclet.Factory_Method_Summary", "Static Factory Method Summary" },
      { "doclet.Field", "Campo" },
      { "doclet.Field_Detail", "Detalhe do Campo" },
      { "doclet.Field_Summary", "Resumo do Campo" },
